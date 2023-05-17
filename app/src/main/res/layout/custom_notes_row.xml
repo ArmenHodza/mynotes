@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentPadding="10dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/black"
+        android:theme="@style/Theme.MaterialComponents.Light">
+
+        <TextView
+            android:id="@+id/notesTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Note"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+</LinearLayout>
